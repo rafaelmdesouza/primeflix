@@ -1,4 +1,4 @@
-# Olá, Bem vindo ao meu projeto Prime Flix.
+# Olá, bem-vindo ao meu projeto Prime Flix.
 
 Trata-se de um web-app que consulta uma API externa para listar os filmes em cartaz. Permite que o usuário veja os detalhes dos filmes e monte sua lista de favoritos utilizando o localstorage.
 
