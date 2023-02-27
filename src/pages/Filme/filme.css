@@ -1,0 +1,90 @@
+.detalhe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filme-info{
+    margin-top: 2em;
+    width: 80%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: #FFF;
+    box-shadow: 5px 5px 4px 1px rgb(168, 168, 168);
+    margin-bottom: 2em;
+    
+}
+
+.filme-info h1{
+    margin: 0 0.5em 0.5em 0.5em;
+}
+
+.filme-info img{
+    border-radius: 8px;
+    width: 80vw;
+    max-width: 100%;
+}
+
+.filme-info h3{
+    margin-top: 1em;
+}
+
+.filme-info span{
+    margin: 1em 0;
+}
+
+.area-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.area-buttons button{
+    margin-top: 1em;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.area-buttons button:hover{    
+    background-color: #116feb;
+    color: #FFF;
+}
+
+.area-buttons a:hover{    
+    color: #FFF;
+}
+
+.filme-info hr{
+    margin-top: 1em;
+    width: 95%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid rgb(35, 35, 35);;
+    background-color: #dddddd;
+    
+    
+/*     margin-top: 1.5em;
+    width: 95%;
+    border: 1px solid;
+    border-color: #000; */
+}
